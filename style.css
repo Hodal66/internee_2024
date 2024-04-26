@@ -1,0 +1,86 @@
+/* *{
+    margin: 0;
+    padding: 0;
+  
+} */
+
+body{
+    color: #555;
+    scroll-behavior: smooth;
+}
+#Logo{
+    width: 120px;
+    height: 24px;
+}
+nav ul{
+    display: flex;
+    gap: 32px;
+}
+
+nav ul li{
+    list-style-type: none;
+    color: #555;
+    scroll-behavior: smooth;
+    transition: all 1s;
+}
+nav ul li:hover{
+    color:rgb(209, 87, 87);
+    cursor:pointer;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 96px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+#heroArea{
+   background-image: url("Assets/Images/imgageBg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 20;
+    height:600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    
+}
+#professionalContent{
+    width: 600px;
+    font-size: large;
+    color: #555;
+    font-style: normal;
+    font-weight: 200;
+
+}
+#visualDesign{
+    font-size: 30px;
+    color:rgb(209, 87, 87);
+}
+#myNameContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#myName{
+    font-size: 60px;
+    border-top: 1px solid #555;
+    border-bottom: 1px solid #555;
+}
+button{
+    background-color: rgb(209, 87, 87);
+    padding: 12px 24px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+
+}
+
+button:hover{
+    background-color: white;
+    color:rgb(209, 87, 87);
+    border: 2px solid rgb(209, 87, 87);;
+}
